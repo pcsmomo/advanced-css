@@ -21,6 +21,12 @@ Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann
 
 clip-path : It creates a clipping region that sets what part of an element should be shown
 
+### 11. Section 3: How CSS Works, Intro
+
+1. Responsive Design
+2. Maintainable and scalable code
+3. Web performance
+
 </details>
 
 ---
