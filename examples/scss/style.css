@@ -44,9 +44,9 @@ nav::after {
   display: inline-block;
   text-align: center;
   border-radius: 100px;
+  width: 150px;
   text-decoration: none;
   text-transform: uppercase;
-  width: 150px;
   color: #eee;
 }
 
