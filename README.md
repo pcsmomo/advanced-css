@@ -68,6 +68,12 @@ Main SASS Features
 - Extends: to make different selectors inherit declarations that are common to all of them;
 - Control directives: for writing complex code using conditionals and loops
 
+### 27. NPM Packages: Let's Install Sass Locally
+
+```sh
+npm install node-sass --save-dev
+```
+
 </details>
 
 ---
