@@ -24,8 +24,36 @@ clip-path : It creates a clipping region that sets what part of an element shoul
 ### 11. Section 3: How CSS Works, Intro
 
 1. Responsive Design
+   - Fluid layouts
+   - Media queries
+   - Responsive images
+   - Correct units
+   - Desktop-first vs mobile-first
 2. Maintainable and scalable code
+   - Clean
+   - Easy-to-understand
+   - Growth
+   - Reusable
+   - How to organize files
+   - How to name classes
+   - How to structure HTML
 3. Web performance
+   - Less HTTP requests
+   - Less code
+   - Compress code
+   - Use a CSS preprocessor
+   - Less images
+   - Compress images
+
+### 20. CSS Architecture, Components and BEM
+
+[Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)
+
+[BEM](http://getbem.com/)
+
+[SASS Guideline](https://sass-guidelin.es/)
+
+[The 7-1 Pattern](https://sass-guidelin.es/#the-7-1-pattern)
 
 </details>
 
