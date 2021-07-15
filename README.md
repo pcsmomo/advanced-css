@@ -15,9 +15,11 @@ Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann
 
 [CSS clip-path maker](https://bennettfeely.com/clippy/)
 
+[Emmet Cheat Sheet](https://docs.emmet.io/cheat-sheet/)
+
 ### 6. Building the Header - Part 1
 
-clip-path
+clip-path : It creates a clipping region that sets what part of an element should be shown
 
 </details>
 
