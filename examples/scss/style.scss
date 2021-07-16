@@ -30,7 +30,7 @@ $width-button: 150px;
 }
 
 nav {
-  margin: devide(60, 2) * 1px;
+  margin: divide(60, 2) * 1px;
   background-color: $color-primary;
 
   @include clearfix;
