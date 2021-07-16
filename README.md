@@ -82,6 +82,10 @@ npm install -g live-server
 live-server
 ```
 
+### 36. Building the About Section - Part 2
+
+[HTML Glyphs](https://css-tricks.com/snippets/html/glyphs/)
+
 </details>
 
 ---
