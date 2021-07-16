@@ -75,11 +75,58 @@ npm install node-sass --save-dev
 npm run compile:sass
 ```
 
+```json
+"scripts": { "compile:sass": "node-sass sass/main.scss css/style.css -w" }
+```
+
 ### 29. The Easiest Way of Automatically Reloading a Page on File Changes
 
 ```sh
 npm install -g live-server
 live-server
+```
+
+### 34. Building a Custom Grid with Floats
+
+- How to architect and build a simple grid system
+- How the attribute selector works
+- How the _:not_ pseudo-class works
+- How _calc()_ works, and what’s the difference between calc() and simple Sass operations
+
+```css
+&:not(:last-child) {
+  border-bottom: 1px solid $color-grey-light-2;
+}
+
+.col-2-of-3 {
+  width: calc(
+    2 * ((100% - 2 * #{$gutter-horizontal}) / 3) + #{$gutter-horizontal}
+  );
+}
+```
+
+### 35. Building the About Section - Part 1
+
+![about section](./resources/images/35.jpg)
+
+- How and why to use utility classes
+- How to use the _background-clip_ property
+- How to transform multiple properties simultaneously
+- How to use the _outline-offset_ property together with outline
+- How to style elements that are NOT hovered while others are
+
+```css
+background-clip__example {
+  display: inline-block;
+  background-image: linear-gradient(
+    to right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  background-clip: text; // firefox, safari
+  -webkit-background-clip: text; // chrome, firefox, safari
+  color: transparent;
+}
 ```
 
 ### 36. Building the About Section - Part 2
@@ -88,9 +135,25 @@ live-server
 
 ### 38. Building the Features Section
 
+![features section](./resources/images/38.jpg)
+
+- How to include and use an icon font
+- Another way of creating the “skewed section”
+- How and when to use the direct child selector
+
 [Live Sass Compiler Settings](https://ritwickdey.github.io/vscode-live-sass-compiler/docs/settings.html)
 
 Using Live Sass Compiler extension instead of node-sass which does not watch sometimes.
+
+### 39. Building the Tours Section - Part 1
+
+![tours section](./resources/images/39.jpg)
+
+- How to build an amazing, rotating card
+- How to use _perspective_ in CSS
+- How to use the _backface-visibility_ property
+- Using _background blend modes_
+- How and when to use _box-decoration-break_
 
 ### 41. Building the Tours Section - Part 3
 
