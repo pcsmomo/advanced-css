@@ -190,7 +190,7 @@ body {
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
     border-radius: 2px;
     position: absolute;
-    transition: all 0.2s;
+    transition: all 0.5s, transform 0.2s;
     outline-offset: 2rem; }
     .composition__photo--p1 {
       left: 0;
