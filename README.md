@@ -177,6 +177,18 @@ center {
 - How to use the <video> HTML element
 - How and when to use the _object-fit_ property
 
+```css
+&__content {
+  object-fit: cover; // similar to background-size: cover;
+}
+```
+
+### 44. Building the Stories Section - Part 3
+
+[Coverr](https://coverr.co/): Free Videos
+
+Background Video
+
 </details>
 
 ---
