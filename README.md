@@ -86,6 +86,12 @@ live-server
 
 [HTML Glyphs](https://css-tricks.com/snippets/html/glyphs/)
 
+### 38. Building the Features Section
+
+[Live Sass Compiler Settings](https://ritwickdey.github.io/vscode-live-sass-compiler/docs/settings.html)
+
+Using Live Sass Compiler extension instead of node-sass which does not watch sometimes.
+
 </details>
 
 ---
