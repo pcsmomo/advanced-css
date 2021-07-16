@@ -92,6 +92,18 @@ live-server
 
 Using Live Sass Compiler extension instead of node-sass which does not watch sometimes.
 
+### 41. Building the Tours Section - Part 3
+
+```css
+/* Position Horizontally Vertically Center */
+center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+```
+
 </details>
 
 ---
