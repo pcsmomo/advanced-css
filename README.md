@@ -72,6 +72,14 @@ Main SASS Features
 
 ```sh
 npm install node-sass --save-dev
+npm run compile:sass
+```
+
+### 29. The Easiest Way of Automatically Reloading a Page on File Changes
+
+```sh
+npm install -g live-server
+live-server
 ```
 
 </details>
