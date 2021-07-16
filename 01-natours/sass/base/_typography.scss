@@ -1,0 +1,51 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7;
+  color: $color-grey-dark;
+  padding: 3rem;
+}
+
+.heading-primary {
+  color: $color-grey-white;
+  text-transform: uppercase;
+
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+
+  &--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 3.5rem;
+
+    animation-name: moveInLeft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+
+    /*
+  animation-delay: 3s;
+  animation-iteration-count: 3;
+
+  animation-timing-function: ease-out
+  ease - Specifies an animation with a slow start, then fast, then end slowly (this is default)
+  linear - Specifies an animation with the same speed from start to end
+  ease-in - Specifies an animation with a slow start
+  ease-out - Specifies an animation with a slow end
+  ease-in-out - Specifies an animation with a slow start and end
+  cubic-bezier(n,n,n,n) - Lets you define your own values in a cubic-bezier function
+
+  animation-fill-mode: forwards;
+  */
+  }
+
+  &--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 1.75rem;
+
+    animation: moveInRight 1s ease-out;
+  }
+}
