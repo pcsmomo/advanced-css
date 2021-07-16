@@ -167,6 +167,16 @@ center {
 }
 ```
 
+### 42. Building the Stories Section - Part 1
+
+![stories section](./resources/images/42.jpg)
+
+- How to make text flow around shapes with _shape-outside_ and _float_
+- How to apply a _filter_ to images
+- How to create a background video covering an entire section
+- How to use the <video> HTML element
+- How and when to use the _object-fit_ property
+
 </details>
 
 ---
