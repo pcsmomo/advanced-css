@@ -236,7 +236,7 @@ solid-color-gradients {
 
 ### 51. Building the Navigation - Part 3
 
-````css
+```css
 &::before {
   top: -0.8rem;
   /*
@@ -247,7 +247,35 @@ solid-color-gradients {
 }
 ```
 
+### 52. Building a Pure CSS Popup - Part 1
+
+![Popup](./resources/images/52.jpg)
+
+- How to build a nice popup with only CSS
+- How to use the _:target_ pseudo-class
+- How to create boxes with equal height using _display: table-cell_
+- How to create CSS text columns
+- How to automatically hyphenate words using _hyphens_
+
+One way of vertical alignment
+
+```css
+&__content {
+  display: table;
+}
+
+&__left {
+  width: 33.333333%;
+  display: table-cell;
+}
+
+&__right {
+  width: 66.666667%;
+  display: table-cell;
+  vertical-align: middle;
+}
+```
+
 </details>
 
 ---
-````
