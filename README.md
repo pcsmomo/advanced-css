@@ -218,6 +218,18 @@ solid-color-gradients {
 }
 ```
 
+### 49. Building the Navigation - Part 1
+
+![Navigation](./resources/images/49.jpg)
+
+- What the “checkbox hack” is and how it works
+- How to create custom animation timing functions using cubic bezier curves
+- How to animate “solid-color gradients”
+- How and why to use _transform-origin_
+- In general: create an amazingly creative effect!
+
+Create mixin for center align
+
 </details>
 
 ---
