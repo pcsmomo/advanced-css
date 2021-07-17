@@ -189,6 +189,26 @@ center {
 
 Background Video
 
+### 45. Building the Booking Section - Part 1
+
+![Booking section](./resources/images/45.jpg)
+
+- How to implement “solid-color gradients”
+- How the general and adjacent sibling selectors work and why we need them
+- How to use the _::input-placeholder_ pseudo-element
+- How and when to use the _:focus_, _:invalid_, _placeholder-shown_ and _:checked_ pseudo- classes
+- Techniques to build custom radio buttons
+
+```css
+solid-color-gradients {
+  background-image: linear-gradient(
+      105deg,
+      rgba($color-white, 0.9) 50%,
+      transparent 50%
+    ), url(../img/nat-10.jpg);
+}
+```
+
 </details>
 
 ---
