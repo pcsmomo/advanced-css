@@ -234,6 +234,20 @@ solid-color-gradients {
 
 [cubic-bezier](https://cubic-bezier.com/)
 
+### 51. Building the Navigation - Part 3
+
+````css
+&::before {
+  top: -0.8rem;
+  /*
+  transform-origin is useful to control rotate when needed
+  transform-origin: right;
+  transform-origin: left;
+  */
+}
+```
+
 </details>
 
 ---
+````
