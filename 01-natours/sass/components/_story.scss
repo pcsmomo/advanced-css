@@ -34,9 +34,7 @@
   }
 
   &__caption {
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    @include position-center;
     transform: translate(-50%, 20%);
     color: $color-white;
     text-transform: uppercase;

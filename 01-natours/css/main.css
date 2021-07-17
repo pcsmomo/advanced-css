@@ -722,6 +722,8 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, 20%);
           transform: translate(-50%, 20%);
   color: #fff;
@@ -771,10 +773,11 @@ body {
 
 .header__text-box {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  top: 40%;
   text-align: center;
 }
 

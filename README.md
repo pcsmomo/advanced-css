@@ -228,8 +228,6 @@ solid-color-gradients {
 - How and why to use _transform-origin_
 - In general: create an amazingly creative effect!
 
-Create mixin for center align
-
 </details>
 
 ---
