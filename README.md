@@ -276,6 +276,10 @@ One way of vertical alignment
 }
 ```
 
+### 55. Mobile-First vs Desktop-First and Breakpoints
+
+[Screen Resolution Stats Worldwide](https://gs.statcounter.com/screen-resolution-stats#monthly-202006-202106-bar)
+
 </details>
 
 ---
