@@ -209,6 +209,15 @@ solid-color-gradients {
 }
 ```
 
+### 46. Building the Booking Section - Part 2
+
+- : CSS Adjacent Sibling Combinator
+
+```css
+&__input:placeholder-shown + &__label {
+}
+```
+
 </details>
 
 ---

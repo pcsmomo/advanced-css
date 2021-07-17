@@ -599,8 +599,29 @@ body {
   border-bottom: 3px solid #55c57a;
 }
 
+.form__input:focus:invalid {
+  border-bottom: 3px solid #ff7730;
+}
+
 .form__input::-webkit-input-placeholder {
   color: #999;
+}
+
+.form__label {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-left: 2rem;
+  margin-top: 0.7rem;
+  display: block;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.form__input:placeholder-shown + .form__label {
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transform: translateY(-4rem);
+          transform: translateY(-4rem);
 }
 
 .story {
