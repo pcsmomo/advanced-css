@@ -228,6 +228,12 @@ solid-color-gradients {
 - How and why to use _transform-origin_
 - In general: create an amazingly creative effect!
 
+### 50. Building the Navigation - Part 2
+
+[Easing functions](https://easings.net/)
+
+[cubic-bezier](https://cubic-bezier.com/)
+
 </details>
 
 ---

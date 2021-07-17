@@ -12,6 +12,7 @@
     right: 6rem;
     border-radius: 50%;
     z-index: 2000;
+    box-shadow: 0 1rem 3rem rgba($color-black, 0.1);
   }
 
   &__background {
@@ -26,8 +27,9 @@
       $color-primary-dark
     );
     z-index: 1000;
+    transition: transform 0.8s;
 
-    transform: scale(80);
+    // transform: scale(80);
   }
 
   &__nav {
@@ -35,8 +37,14 @@
     width: 100vw;
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     z-index: 1500;
+
+    opacity: 0; // user still can click the butotns
+    visibility: hidden; // user cannot click
+    width: 0;
+
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 
   &__list {
@@ -80,5 +88,15 @@
       color: $color-primary;
       transform: translateX(1rem);
     }
+  }
+
+  &__checkbox:checked ~ &__background {
+    transform: scale(80);
+  }
+
+  &__checkbox:checked ~ &__nav {
+    opacity: 1; // responds very quick
+    visibility: visible; // responds slow
+    width: 100%;
   }
 }
