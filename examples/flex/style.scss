@@ -11,10 +11,14 @@
   display: flex;
 
   &__lecture {
+    height: 600px;
     flex-direction: row; // Main AXIS
     // justify-content: flex-start; // default
     justify-content: space-between;
     align-items: center;
+
+    flex-wrap: wrap;
+    align-content: flex-start;
   }
 
   &__flex-row {
