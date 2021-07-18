@@ -8,6 +8,50 @@
 .container {
   background-color: #ccc;
   padding: 10px;
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container__lecture {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.container__flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.container__flex-col {
+  height: 1500px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .item {
@@ -16,4 +60,28 @@
   margin: 30px;
   color: #fff;
   font-size: 40px;
+}
+
+.i2 {
+  height: 200px;
+}
+
+.i4 {
+  font-size: 90px;
+}
+
+.test-item {
+  background-color: #f1425d;
+  padding: 20px;
+  margin: 30px;
+  color: #fff;
+  font-size: 40px;
+}
+
+.test-item2 {
+  height: 200px;
+}
+
+.test-item4 {
+  font-size: 90px;
 }

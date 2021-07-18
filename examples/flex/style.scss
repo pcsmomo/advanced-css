@@ -7,6 +7,30 @@
 .container {
   background-color: #ccc;
   padding: 10px;
+  margin-bottom: 20px;
+  display: flex;
+
+  &__lecture {
+    flex-direction: row; // Main AXIS
+    // justify-content: flex-start; // default
+    justify-content: center;
+    // align-items: stretch;  // default
+    // align-items: baseline;
+    align-items: stretch;
+  }
+
+  &__flex-row {
+    flex-direction: row; // Main AXIS
+    justify-content: center;
+    align-items: baseline;
+  }
+
+  &__flex-col {
+    height: 1500px;
+    flex-direction: column; // Main AXIS
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 }
 
 .item {
@@ -15,4 +39,28 @@
   margin: 30px;
   color: #fff;
   font-size: 40px;
+}
+
+.i2 {
+  height: 200px;
+}
+
+.i4 {
+  font-size: 90px;
+}
+
+.test-item {
+  background-color: #f1425d;
+  padding: 20px;
+  margin: 30px;
+  color: #fff;
+  font-size: 40px;
+}
+
+.test-item2 {
+  height: 200px;
+}
+
+.test-item4 {
+  font-size: 90px;
 }
