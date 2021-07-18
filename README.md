@@ -400,7 +400,7 @@ npm start
 
 Flexbox completely changes the way that we build one-dimensional layouts.
 
-Container for Flex
+Container for Flex : Main Axis
 
 1. flex-direction: row | row-reverse | column | column-reverse
 2. flex-wrap: nowrap | wrap | wrap-reverse
@@ -409,7 +409,7 @@ Container for Flex
 4. align-items: stretch | flex-start | flex-end | center | baseline
 5. align-content: stretch | flex-start | flex-end | center | space-between | space-around
 
-Item for Flex
+Item for Flex : Cross Axis
 
 1. align-self: auto | stretch | flex-start | flex- end | center | baseline
 2. order: 0 | <integer>
