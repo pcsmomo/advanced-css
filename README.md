@@ -315,7 +315,33 @@ ORDER:
 
 - How to allow the browser to decide the best image to download, using the srcset attribute, width descriptors, and the sizes attribute of the <img> element.
 
+```html
+<img
+  srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+  sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
+  src="img/nat-1-large.jpg"
+  alt="Photo 1"
+  class="composition__photo composition__photo--p1"
+/>
+```
+
 > A bit confusing still.
+
+### 63. Responsive Images in CSS
+
+- How to implement responsive images in CSS
+- How to use resolution media queries to target high-resolution screens with 2x
+- How to combine multiple conditions in media queries.
+
+```css
+@media (min-resolution: 192dpi) and (min-width: 37.5em), (min-width: 112.5em) {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba($color-secondary-light, 0.8),
+      rgba($color-secondary-dark, 0.8)
+    ), url(../img/hero.jpg);
+}
+```
 
 </details>
 
