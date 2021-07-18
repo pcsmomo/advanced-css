@@ -1,15 +1,15 @@
 {
-  // "liveSassCompile.settings.formats": [
-  //   {
-  //     "format": "expanded",
-  //     "extensionName": ".css",
-  //     "savePath": "~/../css"
-  //   }
-  // ],
-  "liveSassCompile.settings.generateMap": false
-  // "liveSassCompile.settings.excludeList": [
-  //   "**/node_modules/**",
-  //   ".vscode/**",
-  //   "examples/**"
-  // ]
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css"
+    }
+  ],
+  "liveSassCompile.settings.generateMap": false,
+  "liveSassCompile.settings.excludeList": [
+    "**/node_modules/**",
+    ".vscode/**",
+    "examples/**"
+  ]
 }
