@@ -325,7 +325,10 @@ ORDER:
 />
 ```
 
-> A bit confusing still.
+[MDN Responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
+
+> Confusing still as it doesn't work as it was supposed to on chrome devtool \
+> "The browser loads the image referenced in the srcset list that has the same size as the slot or, if there isn't one, the first image that is bigger than the chosen slot size."
 
 ### 63. Responsive Images in CSS
 
@@ -363,7 +366,27 @@ npm install npm-run-all --save-dev
 
 npm run build:css
 
+npm start
+```
 
+### 66. Wrapping up the Natours Project: Final Considerations
+
+[W3 Media Types](https://www.w3.org/TR/CSS21/media.html%23media-types)
+
+```css
+/* only screen */
+@media only screen and (max-width: 37.5em) {
+}
+
+/* Color changing when you select texts */
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}
+
+/* for touchable devide like iPad (landspace) */
+@media only screen and (hover: none) {
+}
 ```
 
 </details>
