@@ -300,6 +300,23 @@ ORDER:
 - How and why to use the <picture> element for art direction
 - How to write media queries in HTML.
 
+```html
+<source
+  srcset="img/logo-green-small-1x.png 1x, img/logo-green-small-2x.png 2x"
+  media="(max-width: 37.5em)"
+/>
+<img
+  srcset="img/logo-green-1x.png 1x, img/logo-green-2x.png 2x"
+  alt="Full logo"
+/>
+```
+
+### 62. Responsive Images in HTML - Density and Resolution Switching
+
+- How to allow the browser to decide the best image to download, using the srcset attribute, width descriptors, and the sizes attribute of the <img> element.
+
+> A bit confusing still.
+
 </details>
 
 ---
