@@ -343,6 +343,14 @@ ORDER:
 }
 ```
 
+### 64. Testing for Browser Support with @supports
+
+[CANIUSE](https://caniuse.com/)
+
+- How to use _@supports_ feature queries
+- Implement graceful degradation on selected
+- How to use _backdrop-filter_
+
 </details>
 
 ---
