@@ -280,6 +280,14 @@ One way of vertical alignment
 
 [Screen Resolution Stats Worldwide](https://gs.statcounter.com/screen-resolution-stats#monthly-202006-202106-bar)
 
+### 57. Writing Media Queries - Base, Typography and Layout
+
+ORDER:
+
+1. Base + typography
+2. grid + general layout
+3. page layout > components
+
 </details>
 
 ---
