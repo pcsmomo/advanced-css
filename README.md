@@ -4,7 +4,7 @@ Advanced CSS and Sass: Flexbox, Grid, Animations and More! by Jonas Schmedtmann
 
 ---
 
-# Details
+# Project 1. Natours Project
 
 <details open>
   <summary>Click to Contract/Expend</summary>
@@ -388,6 +388,35 @@ npm start
 @media only screen and (hover: none) {
 }
 ```
+
+</details>
+
+# Project 2. Trillo Project
+
+<details open>
+  <summary>Click to Contract/Expend</summary>
+
+### 68. Why Flexbox: An Overview of the Philosophy Behind Flexbox
+
+Flexbox completely changes the way that we build one-dimensional layouts.
+
+Container for Flex
+
+1. flex-direction: row | row-reverse | column | column-reverse
+2. flex-wrap: nowrap | wrap | wrap-reverse
+3. justify-content: flex-start | flex-end | center |
+   space-between | space-around | space-evenly
+4. align-items: stretch | flex-start | flex-end | center | baseline
+5. align-content: stretch | flex-start | flex-end | center | space-between | space-around
+
+Item for Flex
+
+1. align-self: auto | stretch | flex-start | flex- end | center | baseline
+2. order: 0 | <integer>
+3. flex: 0 1 auto | <int> <int> <len>
+   1. flex-grow: 0 | <integer>
+   2. flex-shrink: 1 | <integer>
+   3. flex-basis: auto | <length>
 
 </details>
 
