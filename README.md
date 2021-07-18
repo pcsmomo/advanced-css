@@ -351,6 +351,21 @@ ORDER:
 - Implement graceful degradation on selected
 - How to use _backdrop-filter_
 
+### 65. Setting up a Simple Build Process with NPM Scripts
+
+```sh
+# concatenate two files
+npm install concat --save-dev
+# Add prefixes such as -webkit-, -moz-, -o-, Etc.
+npm install autoprefixer postcss-cli postcss --save-dev
+# run several npm commands at once
+npm install npm-run-all --save-dev
+
+npm run build:css
+
+
+```
+
 </details>
 
 ---
