@@ -288,6 +288,18 @@ ORDER:
 2. grid + general layout
 3. page layout > components
 
+### 59. Writing Media Queries - Tours, Stories and Booking Sections
+
+[Suzzy - Varius device screen testing](https://sizzy.co/)
+
+### 61. Responsive Images in HTML - Art Direction and Density Switching
+
+![Responsive Images](./resources/images/61.jpg)
+
+- How to use the srcset attribute on the <img> and <source> elements, together with density descriptors
+- How and why to use the <picture> element for art direction
+- How to write media queries in HTML.
+
 </details>
 
 ---
