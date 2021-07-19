@@ -440,6 +440,12 @@ advanced-css-course-starter-jonas/Trillo/final % live-server --port=9090
 
 input element doesn't inherit font-family and font-size
 
+### 78. Building the Navigation - Part 1
+
+- How to use _scaleY_ and multiple transition properties with different settings, to create a creative hover effect
+- How and why to use the _currentColor_ CSS variable
+- How to use some more advanced flexbox alignment techniques, including _flex-direction_, _justify-content_ and _align-items_.
+
 </details>
 
 ---
