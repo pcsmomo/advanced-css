@@ -446,6 +446,13 @@ input element doesn't inherit font-family and font-size
 - How and why to use the _currentColor_ CSS variable
 - How to use some more advanced flexbox alignment techniques, including _flex-direction_, _justify-content_ and _align-items_.
 
+```css
+/* inherit color from itself or its parent */
+&__icon {
+  fill: currentColor;
+}
+```
+
 </details>
 
 ---
