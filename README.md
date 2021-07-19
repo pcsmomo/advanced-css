@@ -418,6 +418,23 @@ Item for Flex : Cross Axis
    2. flex-shrink: 1 | <integer>
    3. flex-basis: auto | <length>
 
+### 75. Building the Header - Part 1
+
+[IcoMoon : Free SVG & Icons](https://icomoon.io/app/)
+
+> xlink:href is only working on a web server
+
+```html
+<svg class="search__icon">
+  <use xlink:href="img/sprite.svg#icon-magnifying-glass" />
+</svg>
+```
+
+```sh
+# Run one more server for the final version to compare
+advanced-css-course-starter-jonas/Trillo/final % live-server --port=9090
+```
+
 </details>
 
 ---
