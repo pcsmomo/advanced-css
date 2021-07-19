@@ -404,9 +404,10 @@ Container for Flex : Main Axis
 
 1. flex-direction: row | row-reverse | column | column-reverse
 2. flex-wrap: nowrap | wrap | wrap-reverse
-3. justify-content: flex-start | flex-end | center |
-   space-between | space-around | space-evenly
+3. justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly
+   - Main Axis Alignment
 4. align-items: stretch | flex-start | flex-end | center | baseline
+   - Cross Axis Alignment
 5. align-content: stretch | flex-start | flex-end | center | space-between | space-around
 
 Item for Flex : Cross Axis
@@ -434,6 +435,10 @@ Item for Flex : Cross Axis
 # Run one more server for the final version to compare
 advanced-css-course-starter-jonas/Trillo/final % live-server --port=9090
 ```
+
+### 76. Building the Header - Part 2
+
+input element doesn't inherit font-family and font-size
 
 </details>
 
