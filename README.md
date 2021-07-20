@@ -471,6 +471,10 @@ flex - margin-right trick. \
 }
 ```
 
+### 82. Building the Description Section - Part 1
+
+VSCode -> Expand Selection (Ctrl + Shift + ->)
+
 </details>
 
 ---
