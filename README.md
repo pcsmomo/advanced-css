@@ -473,7 +473,24 @@ flex - margin-right trick. \
 
 ### 82. Building the Description Section - Part 1
 
+- Continue to use flexbox, including _flex-wrap_ to build a multi-column list
+- How and why to use CSS masks with _mask-image_ and _mask-size_
+
 VSCode -> Expand Selection (Ctrl + Shift + ->)
+
+### 83. Building the Description Section - Part 2
+
+When I use ::before, don't forget to define content, display, height and width.
+
+```css
+&__item::before {
+  content: '';
+  display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  background-image: url(../img/chevron-thin-right.svg);
+}
+```
 
 </details>
 
