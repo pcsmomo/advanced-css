@@ -453,6 +453,24 @@ input element doesn't inherit font-family and font-size
 }
 ```
 
+### 80. Building the Hotel Overview - Part 1
+
+flex - margin-right trick. \
+-> works the same as flex but not actually occupying whole width
+
+```css
+.overview {
+  display: flex;
+  &__heading {
+  }
+  &__stars {
+    /* flex: 1; */
+    margin-right: auto;
+    background-color: orangered;
+  }
+}
+```
+
 </details>
 
 ---
