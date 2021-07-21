@@ -2,4 +2,42 @@
   background-color: #eee;
   width: 1000px;
   margin: 30px auto;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 150px 100px;
+      grid-template-rows: 150px 100px;
+  -ms-grid-columns: 150px 150px 150px;
+      grid-template-columns: 150px 150px 150px;
+  grid-gap: 30px;
+}
+
+.item {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+}
+
+.item--1 {
+  background-color: orangered;
+}
+
+.item--2 {
+  background-color: yellowgreen;
+}
+
+.item--3 {
+  background-color: blueviolet;
+}
+
+.item--4 {
+  background-color: palevioletred;
+}
+
+.item--5 {
+  background-color: royalblue;
+}
+
+.item--6 {
+  background-color: goldenrod;
 }
