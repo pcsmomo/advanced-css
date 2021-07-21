@@ -32,7 +32,7 @@ html {
   font-size: 62.5%;
 }
 
-@media only screen and (max-width: 68.75rem) {
+@media only screen and (max-width: 68.75em) {
   html {
     font-size: 50%;
   }
@@ -58,7 +58,7 @@ body {
           box-shadow: var(--shadow-dark);
 }
 
-@media only screen and (max-width: 75rem) {
+@media only screen and (max-width: 75em) {
   .container {
     margin: 0;
     max-width: 100%;
@@ -82,13 +82,23 @@ body {
           align-items: center;
 }
 
+@media only screen and (max-width: 26em) {
+  .header {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+    height: 10rem;
+  }
+}
+
 .content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-@media only screen and (max-width: 56.75rem) {
+@media only screen and (max-width: 56.75em) {
   .content {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -131,9 +141,18 @@ body {
   border-bottom: var(--line);
 }
 
-@media only screen and (max-width: 56.75rem) {
+@media only screen and (max-width: 56.75em) {
   .detail {
     padding: 3rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .detail {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -148,10 +167,17 @@ body {
   margin-right: 4.5rem;
 }
 
-@media only screen and (max-width: 56.75rem) {
+@media only screen and (max-width: 56.75em) {
   .description {
     padding: 2rem;
     margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .description {
+    margin-right: 0;
+    margin-bottom: 3rem;
   }
 }
 
@@ -189,6 +215,18 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media only screen and (max-width: 26em) {
+  .search {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    background-color: var(--color-grey-light-2);
+  }
 }
 
 .search__input {
@@ -310,7 +348,7 @@ body {
   margin-top: 3.5rem;
 }
 
-@media only screen and (max-width: 56.75rem) {
+@media only screen and (max-width: 56.75em) {
   .side-nav {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -327,13 +365,13 @@ body {
   margin-bottom: 0.5rem;
 }
 
-@media only screen and (max-width: 56.75rem) {
+@media only screen and (max-width: 56.75em) {
   .side-nav__item:not(:last-child) {
     margin: 0;
   }
 }
 
-@media only screen and (max-width: 56.75rem) {
+@media only screen and (max-width: 56.75em) {
   .side-nav__item {
     -webkit-box-flex: 1;
         -ms-flex: 1;
@@ -383,12 +421,22 @@ body {
           align-items: center;
 }
 
-@media only screen and (max-width: 56.75rem) {
+@media only screen and (max-width: 56.75em) {
   .side-nav__link:link, .side-nav__link:visited {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
     padding: 2rem;
+  }
+}
+
+@media only screen and (max-width: 37.5em) {
+  .side-nav__link:link, .side-nav__link:visited {
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
@@ -399,6 +447,18 @@ body {
   fill: currentColor;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .side-nav__icon {
+    margin-right: 0;
+    margin-bottom: 0.7rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+
 .legal {
   font-size: 1.2rem;
   color: var(--color-grey-light-4);
@@ -406,7 +466,7 @@ body {
   padding: 2.5rem;
 }
 
-@media only screen and (max-width: 56.75rem) {
+@media only screen and (max-width: 56.75em) {
   .legal {
     display: none;
   }
@@ -441,6 +501,21 @@ body {
   padding: 1.5rem 3rem;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .overview__heading {
+    font-size: 1.8rem;
+    padding: 1.25rem 2rem;
+  }
+}
+
+@media only screen and (max-width: 26em) {
+  .overview__heading {
+    font-size: 1.5rem;
+    letter-spacing: normal;
+    padding: 1rem;
+  }
+}
+
 .overview__stars {
   margin-right: auto;
   display: -webkit-box;
@@ -454,6 +529,13 @@ body {
   fill: var(--color-primary);
 }
 
+@media only screen and (max-width: 26em) {
+  .overview__icon-star, .overview__icon-location {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
+
 .overview__location {
   font-size: 1.2rem;
   display: -webkit-box;
@@ -461,8 +543,20 @@ body {
   display: flex;
 }
 
+@media only screen and (max-width: 26em) {
+  .overview__location {
+    font-size: 1rem;
+  }
+}
+
 .overview__icon-location {
   margin-right: 0.5rem;
+}
+
+@media only screen and (max-width: 26em) {
+  .overview__icon-location {
+    margin-right: 0.2rem;
+  }
 }
 
 .overview__rating {
@@ -487,15 +581,40 @@ body {
           align-items: center;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .overview__rating {
+    padding: 0 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 26em) {
+  .overview__rating {
+    margin-left: 1rem;
+    padding: 0 1rem;
+  }
+}
+
 .overview__rating-average {
   font-size: 2.25rem;
   font-weight: 300;
   margin-bottom: -3px;
 }
 
+@media only screen and (max-width: 37.5em) {
+  .overview__rating-average {
+    font-size: 1.8rem;
+  }
+}
+
 .overview__rating-count {
   font-size: 0.8rem;
   text-transform: uppercase;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .overview__rating-count {
+    font-size: 0.5rem;
+  }
 }
 
 .btn-inline {
@@ -590,6 +709,15 @@ body {
       flex-wrap: wrap;
 }
 
+@media only screen and (max-width: 26em) {
+  .list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .list__item {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 50%;
@@ -654,7 +782,7 @@ body {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 56.75rem) {
+@media only screen and (max-width: 56.75em) {
   .review {
     padding: 2rem;
     margin-bottom: 3rem;
@@ -722,7 +850,7 @@ body {
   text-align: center;
 }
 
-@media only screen and (max-width: 56.75rem) {
+@media only screen and (max-width: 56.75em) {
   .cta {
     padding: 2.5rem 0;
   }
