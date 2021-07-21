@@ -492,6 +492,12 @@ When I use ::before, don't forget to define content, display, height and width.
 }
 ```
 
+### 88. Wrapping up the Trillo Project: Final Considerations
+
+```sh
+npm run build:css
+```
+
 </details>
 
 ---
