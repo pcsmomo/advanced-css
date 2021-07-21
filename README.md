@@ -498,6 +498,38 @@ When I use ::before, don't forget to define content, display, height and width.
 npm run build:css
 ```
 
+### 90. Why CSS Grid: A Whole New Mindset
+
+Container for Grid
+
+1. grid-template
+   - grid-template-rows
+   - grid-template-columns
+   - grid-template-areas
+2. grid-gap
+   - grid-row-gap
+   - grid-column-gap
+3. - justify-items
+   - align-items
+   - justify-content
+   - align-content
+4. - grid-auto-rows
+   - grid-auto-columns
+   - grid-auto-flow
+
+Item for Grid
+
+1. grid-area
+   1. grid-row
+      - grid-row-start
+      - grid-row-end
+   2. grid-column
+      - grid-column-start
+      - grid-column-end
+2. - justify-self
+   - align-self
+3. order
+
 </details>
 
 ---
