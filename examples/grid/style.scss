@@ -3,7 +3,7 @@
   width: 1000px;
   margin: 30px auto;
 
-  height: 1000px;
+  // height: 1000px;
 
   display: grid;
   grid-template-rows: repeat(2, 150px);
@@ -30,14 +30,19 @@
     // grid-column-end: 3;
     grid-row: 2 / 3;
     grid-column: 2 / 3;
+    z-index: 10;
   }
 
   &--2 {
     background-color: yellowgreen;
+    //grid-column: 2 / span 2;
+    grid-column: 2 / -1;
   }
 
   &--3 {
     background-color: blueviolet;
+    grid-column: 1 / 3;
+    grid-row: 2 / 3;
   }
 
   &--4 {
@@ -48,7 +53,7 @@
     background-color: royalblue;
     // grid-row: 1 / 2;
     // grid-column: 3 / 4;
-    grid-area: 1 / 3 / 2 / 4;
+    grid-area: 1 / 3 / 3 / 4;
   }
 
   &--6 {
