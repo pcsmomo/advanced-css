@@ -530,6 +530,18 @@ Item for Grid
    - align-self
 3. order
 
+### 93. Getting Familiar with the fr Unit
+
+```css
+.grid {
+  width: 1000px;
+  grid-template-columns: 50% 1fr 1fr;
+  grid-gap: 30px;
+}
+/* 50% : calculated from with 500px, not considering gab, 500px */
+/* 1fr : it considers gab size, 500px 30px 220px 30px 220px = 1000px / */
+```
+
 </details>
 
 ---
