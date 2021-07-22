@@ -1,0 +1,41 @@
+.container {
+  width: 1000px;
+  display: grid;
+  height: 600px;
+
+  grid-template-rows: 80px repeat(3, 1fr) 80px;
+  grid-template-columns: repeat(3, 1fr) 150px;
+
+  grid-gap: 30px;
+
+  & > * {
+    background-color: orangered;
+  }
+}
+
+.header {
+  grid-column: 1 / -1;
+}
+
+.sidebar {
+  grid-column: 4 / 5;
+  grid-row: 2 / 5;
+}
+
+.small-box-1 {
+}
+
+.small-box-2 {
+}
+
+.small-box-3 {
+}
+
+.main-content {
+  grid-column: 1 / 4;
+  grid-row: 3 / 5;
+}
+
+.footer {
+  grid-column: 1 / -1;
+}
