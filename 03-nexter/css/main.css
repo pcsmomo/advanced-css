@@ -1,1 +1,20 @@
-/* No CSS */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border-style: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  color: #6d5d4b;
+  font-weight: 300;
+  line-height: 1.6;
+}
