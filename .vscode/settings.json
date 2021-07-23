@@ -1,25 +1,27 @@
 {
-  // "liveSassCompile.settings.formats": [
-  //   {
-  //     "format": "expanded",
-  //     "extensionName": ".css",
-  //     "savePath": "~/../css"
-  //   }
-  // ],
-  // "liveSassCompile.settings.generateMap": false,
-  // "liveSassCompile.settings.excludeList": [
-  //   "**/node_modules/**",
-  //   ".vscode/**",
-  //   "examples/**"
-  // ]
-
+  // For Projects
+  "liveSassCompile.settings.formats": [
+    {
+      "format": "expanded",
+      "extensionName": ".css",
+      "savePath": "~/../css"
+    }
+  ],
   "liveSassCompile.settings.generateMap": false,
   "liveSassCompile.settings.excludeList": [
     "**/node_modules/**",
     ".vscode/**",
-    "01-natours/**",
-    "02-trillio/**",
-    "examples/flex/**",
-    "examples/scss/**"
+    "examples/**"
   ]
+
+  // For examples
+  // "liveSassCompile.settings.generateMap": false,
+  // "liveSassCompile.settings.excludeList": [
+  //   "**/node_modules/**",
+  //   ".vscode/**",
+  //   "01-natours/**",
+  //   "02-trillio/**",
+  //   "examples/flex/**",
+  //   "examples/scss/**"
+  // ]
 }
