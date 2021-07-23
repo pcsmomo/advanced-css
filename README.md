@@ -557,6 +557,10 @@ Item for Grid
 /* This is good for a simple layout but complex layout */
 ```
 
+## 103. Using min-content, max-content and the minmax() function
+
+examples/grid/grid-advanced.html
+
 </details>
 
 ---
