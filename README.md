@@ -542,6 +542,21 @@ Item for Grid
 /* 1fr : it considers gab size, 500px 30px 220px 30px 220px = 1000px / */
 ```
 
+### 99. Naming Grid Areas
+
+```css
+/* METHOD 3: NAME GRID AREAS */
+.container {
+  grid-template-areas:
+    '. head head .'
+    'box-1 box-2 box-3 side'
+    'main main main side'
+    'foot foot foot foot';
+}
+/* . is for empty space */
+/* This is good for a simple layout but complex layout */
+```
+
 </details>
 
 ---

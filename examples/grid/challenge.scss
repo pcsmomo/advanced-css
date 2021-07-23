@@ -1,14 +1,18 @@
-// METHOD 2: LINE NAMES
+// METHOD 3: NAME GRID AREAS
 .container {
   width: 1000px;
   margin: 30px auto;
 
   display: grid;
-
-  grid-template-rows: [header-start] 80px [header-end box-start] 120px [box-end main-start] 250px [main-end footer-start] 80px [footer-end];
-  grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 150px [grid-end];
-
+  grid-template-rows: 80px 120px 250px 80px;
+  grid-template-columns: repeat(3, 1fr) 150px;
   grid-gap: 30px;
+
+  grid-template-areas:
+    '. head head .'
+    'box-1 box-2 box-3 side'
+    'main main main side'
+    'foot foot foot foot';
 
   & > * {
     background-color: orangered;
@@ -20,23 +24,72 @@
 }
 
 .header {
-  grid-column: col-start 1 / grid-end;
+  grid-area: head;
 }
 
 .sidebar {
-  grid-column: col-end 3 / grid-end;
-  grid-row: box-start / main-end;
+  grid-area: side;
+}
+
+.small-box-1 {
+  grid-area: box-1;
+}
+
+.small-box-2 {
+  grid-area: box-2;
+}
+
+.small-box-3 {
+  grid-area: box-3;
 }
 
 .main-content {
-  grid-column: col-start 1 / col-end 3;
+  grid-area: main;
 }
 
 .footer {
-  grid-column: col-start 1 / grid-end;
+  grid-area: foot;
 }
 
-// METHOD 1: LINE NUMBERS
+// // METHOD 2: LINE NAMES
+// .container {
+//   width: 1000px;
+//   margin: 30px auto;
+
+//   display: grid;
+
+//   grid-template-rows: [header-start] 80px [header-end box-start] 120px [box-end main-start] 250px [main-end footer-start] 80px [footer-end];
+//   grid-template-columns: repeat(3, [col-start] 1fr [col-end]) 150px [grid-end];
+
+//   grid-gap: 30px;
+
+//   & > * {
+//     background-color: orangered;
+//     padding: 20px;
+//     color: white;
+//     font-size: 30px;
+//     font-family: sans-serif;
+//   }
+// }
+
+// .header {
+//   grid-column: col-start 1 / grid-end;
+// }
+
+// .sidebar {
+//   grid-column: col-end 3 / grid-end;
+//   grid-row: box-start / main-end;
+// }
+
+// .main-content {
+//   grid-column: col-start 1 / col-end 3;
+// }
+
+// .footer {
+//   grid-column: col-start 1 / grid-end;
+// }
+
+// // METHOD 1: LINE NUMBERS
 // .container {
 //   width: 1000px;
 //   margin: 30px auto;
