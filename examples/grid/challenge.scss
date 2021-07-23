@@ -1,15 +1,20 @@
 .container {
   width: 1000px;
-  display: grid;
-  height: 600px;
+  margin: 30px auto;
 
-  grid-template-rows: 80px repeat(3, 1fr) 80px;
+  display: grid;
+
+  grid-template-rows: 80px 120px 250px 80px;
   grid-template-columns: repeat(3, 1fr) 150px;
 
   grid-gap: 30px;
 
   & > * {
     background-color: orangered;
+    padding: 20px;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
   }
 }
 
@@ -19,21 +24,11 @@
 
 .sidebar {
   grid-column: 4 / 5;
-  grid-row: 2 / 5;
-}
-
-.small-box-1 {
-}
-
-.small-box-2 {
-}
-
-.small-box-3 {
+  grid-row: 2 / span 2;
 }
 
 .main-content {
-  grid-column: 1 / 4;
-  grid-row: 3 / 5;
+  grid-column: 1 / span 3;
 }
 
 .footer {
