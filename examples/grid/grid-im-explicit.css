@@ -6,16 +6,20 @@
   display: grid;
   -ms-grid-rows: (150px)[2];
       grid-template-rows: repeat(2, 150px);
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
   grid-gap: 30px;
   grid-auto-rows: 100px;
-  grid-auto-flow: row;
+  grid-auto-flow: row dense;
   grid-auto-columns: 0.5fr;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  justify-items: center;
+  -ms-grid-rows: (100px)[2];
+      grid-template-rows: repeat(2, 100px);
+  -ms-grid-columns: (200px)[2];
+      grid-template-columns: repeat(2, 200px);
+  height: 1000px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
 }
 
 .container .item {
@@ -31,11 +35,13 @@
   -ms-grid-row: 2;
   -ms-grid-row-span: 3;
   grid-row: 2 / span 3;
-  -ms-flex-item-align: start;
-      -ms-grid-row-align: start;
-      align-self: start;
-  -ms-grid-column-align: start;
-      justify-self: start;
+}
+
+.container .item--6 {
+  background-color: lightcoral;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2 / span 2;
 }
 
 .container .item--7 {

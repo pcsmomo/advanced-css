@@ -509,9 +509,9 @@ Container for Grid
 2. grid-gap
    - grid-row-gap
    - grid-column-gap
-3. - justify-items
+3. - justify-items : STRETCH | center | end | start
    - align-items
-   - justify-content
+   - justify-content : center | start | end | space-between | space-around | space-evenly
    - align-content
 4. - grid-auto-rows
    - grid-auto-columns
