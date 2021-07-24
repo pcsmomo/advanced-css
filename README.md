@@ -561,6 +561,14 @@ Item for Grid
 
 examples/grid/grid-advanced.html
 
+### 109. Building the Features Section - Part 2
+
+```css
+grid-row: 1 / -1;
+/* this -1 works within explicit grid, not implicit */
+grid-row: 1 / span 2;
+```
+
 </details>
 
 ---
