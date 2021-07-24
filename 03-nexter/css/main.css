@@ -52,8 +52,13 @@ body {
 }
 
 .features {
-  background-color: #aaa;
   grid-column: center-start / center-end;
+  margin: 15rem 0;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6rem;
 }
 
 .story__pictures {
