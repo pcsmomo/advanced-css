@@ -569,6 +569,10 @@ grid-row: 1 / -1;
 grid-row: 1 / span 2;
 ```
 
+### 111. Building the Story Section - Part 2
+
+Images do not stretch but keep their ratio.
+
 </details>
 
 ---
