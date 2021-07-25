@@ -578,6 +578,15 @@ Images do not stretch but keep their ratio.
 - How to create a complex grid-looking gallery
 - Using _object-fit_ together with images for grid items
 
+```css
+&__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+```
+
 </details>
 
 ---
