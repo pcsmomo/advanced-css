@@ -573,6 +573,11 @@ grid-row: 1 / span 2;
 
 Images do not stretch but keep their ratio.
 
+### 114. Building the Gallery - Part 1
+
+- How to create a complex grid-looking gallery
+- Using _object-fit_ together with images for grid items
+
 </details>
 
 ---
