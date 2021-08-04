@@ -600,10 +600,9 @@ body {
   grid-column: full-start / full-end;
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (1fr)[8];
-      grid-template-columns: repeat(8, 1fr);
   -ms-grid-rows: (5vw)[7];
-      grid-template-rows: repeat(7, 5vw);
+  -ms-grid-columns: (1fr)[8];
+      grid-template: repeat(7, 5vw)/repeat(8, 1fr);
   grid-gap: 1.5rem;
   padding: 1.5rem;
 }
